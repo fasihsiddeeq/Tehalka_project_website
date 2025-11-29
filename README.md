@@ -1,2 +1,5 @@
 # Tehalka_project_website
-created by fasih maaz wardah
+created by:
+Fasih Siddeeq 25F-3074
+Maaz Ahmed 25F-3023
+Wardah Waleed 25F-3012
