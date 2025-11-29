@@ -1,0 +1,76 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+:root{
+    --bg-color: #ffffff;
+    --text-color : #041126;
+    --main-color: #ef4444;
+    --second-color:#94a3b8;
+    --other-color:#ffffffb3;
+    --border-color:e5e7eb;
+
+    --h1-font: 4.7rem;
+    --h2-font: 3.2rem;
+    --p-font: 1.1rem;
+}
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+header{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: blue;
+    padding: 30px 15%;
+    transition: all .7s ease;
+}
+.navlist a{
+    display: inline-block;
+    font-size: var(--p-font);
+    font-weight: 500;
+    color: var(--other-color);
+    margin: 0 25px;
+    transition: all .7s ease;
+    
+    
+}
+.navbar {
+    display: flex;           /* Aligns Logo and Menu side-by-side */
+    justify-content: space-between; /* Pushes them to edges */
+    align-items: center;     /* Vertically centers them */
+    height: 80px;            /* Fixes the height to look sleek */
+    padding: 0 50px;
+}
+
+.logo img {
+    height: 50px;            /* Restrict logo height! */
+    width: auto;             /* Keep aspect ratio */
+}
+
+.menu-links {
+    display: flex;           /* Makes the list items horizontal */
+    gap: 30px;               /* Adds space between Home, About, etc. */
+    list-style: none;
+}
+.navlist a:hover{
+    color:var(--bg-color)
+}
+#menu-icon{
+    font-size: 40px;
+    z-index: 10001;
+    color:var(--bg-color);
+    cursor: pointer;
+}
